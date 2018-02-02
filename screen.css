@@ -219,6 +219,11 @@ ul {
   padding-top: 0.666rem; /*11/18 = 0.666rem*/
 }
 
+#submit:hover {
+  color: blue;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 320px) {
   #form {
     width: 100%;
