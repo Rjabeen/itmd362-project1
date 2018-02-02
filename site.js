@@ -18,6 +18,6 @@ else {
 
   if(valid)
   {
-  $('html').append("Thanks for signing up!")
+  $('html').append("Thanks for signing up!  " + name)
 }
 });
