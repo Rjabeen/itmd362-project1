@@ -224,6 +224,11 @@ ul {
   cursor: pointer;
 }
 
+footer {
+  padding-top: 1.222rem;
+  padding-bottom: 0.611rem; /*11/18 = 0.611rem*/
+}
+
 @media screen and (min-width: 320px) {
   #form {
     width: 100%;
