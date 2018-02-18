@@ -39,6 +39,10 @@ function(e) {
      $('#phone').parent().append("<p id='problem'>phone number is invalid!</p>")
 
    }
+   else {
+     console.log('Valid Phone');
+     validator.phone = true;
+   }
 
    if(!validbirthday){
      console.log('Invalid birthday');
