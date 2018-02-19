@@ -15,7 +15,7 @@ function(e) {
    var phone = $('#phone').val();
    var name = $('#name').val();
 
-   var validE = /.+@.+\..+/g
+   var validE = /.+@.+\..+/g^[^\s@]+@[^\s@]+$/
    var validP = /.+\d.+/g
 
    var validemail = validE.test(email);
